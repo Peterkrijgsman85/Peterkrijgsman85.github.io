@@ -68,8 +68,6 @@ markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
-  - toc:
-      permalink: true
 
 copyright: |
   &copy; 2024 <a href="https://peterkrijgsman85.github.io" target="_blank" rel="noopener">peterkrijgsman85.github.io<a>
