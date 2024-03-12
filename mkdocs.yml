@@ -39,7 +39,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
+      primary: black
       accent: deep orange
       toggle:
         icon: material/weather-night
