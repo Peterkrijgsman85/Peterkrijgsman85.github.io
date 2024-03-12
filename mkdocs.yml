@@ -4,7 +4,7 @@ site_url: https://peterkrijgsman85.github.io/
 theme:
   icon:
     repo: fontawesome/brands/github
-  logo: material/github
+    logo: material/github
   name: material
   features:
     - navigation.path
