@@ -7,7 +7,6 @@ theme:
     logo: :technologist_tone1:
   name: material
   features:
-    - content.action.edit
     - navigation.path
     - navigation.tabs 
     - navigation.indexes
