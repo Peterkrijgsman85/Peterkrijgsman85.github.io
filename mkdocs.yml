@@ -16,8 +16,6 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - toc.follow
-    - search.suggest
-    - search.highligt
     - content.tabs.link
     - content.code.annotatioin
     - content.code.copy
