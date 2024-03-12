@@ -4,7 +4,7 @@ site_url: https://peterkrijgsman85.github.io/
 theme:
   icon:
     repo: fontawesome/brands/github
-  logo: :technologist_tone1:
+  logo: technologist/tone1
   name: material
   features:
     - navigation.path
