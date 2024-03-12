@@ -4,10 +4,8 @@ site_url: https://peterkrijgsman85.github.io/
 theme:
   icon:
     repo: fontawesome/brands/github
-    edit: material/pencil 
-    view: material/eye
-  logo: assets/logo.png
-  favicon: assets/favicon.png
+  logo: fontawesome/brands/github
+  favicon: fontawesome/brands/github
   name: material
   features:
     - content.action.edit
