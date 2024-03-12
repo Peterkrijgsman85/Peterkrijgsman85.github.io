@@ -27,6 +27,7 @@ theme:
     - header.autohide
   language: nl
   palette:
+    primary: blue grey
       # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
