@@ -45,6 +45,7 @@ theme:
         icon: material/weather-night
         name: Donkere modus
 
+plugins: []
 
 extra:
   social:
