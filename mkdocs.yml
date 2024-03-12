@@ -72,13 +72,3 @@ markdown_extensions:
 
 copyright: |
   &copy; 2024 <a href="https://peterkrijgsman85.github.io" target="_blank" rel="noopener">peterkrijgsman85.github.io<a>
-
-plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - search
-
-
-repo_url: https://github.com/Peterkrijgsman85/Peterkrijgsman85
-edit_uri: edit/main/docs/
-repo_name: peterkrijgsman85
