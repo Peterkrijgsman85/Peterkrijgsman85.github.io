@@ -35,13 +35,15 @@ theme:
         name: Automatisch
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
+      primary: blue grey
       toggle:
         icon: material/weather-sunny
         name: Lichte modus
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue grey
       toggle:
         icon: material/weather-night
         name: Donkere modus
