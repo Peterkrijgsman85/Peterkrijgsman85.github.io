@@ -85,11 +85,7 @@ content:
           Started as an engineer, and now project manager
         description: | # this will include new lines to allow paragraphs
             As a project manager, I am responsible for the proper delivery of projects. In short, this involves: <mark>Maintaining contact with the client</mark>,
-- Maintaining contact with and between the organizational departments
-- Planning, initiating and coordinating activities
-- Supporting team members
-- Monitoring the progress of the implementation
-- Administrative processing of contracts that belong to the project
+
             Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
 #  - title: Education # Title for the section
