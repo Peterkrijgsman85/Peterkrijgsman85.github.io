@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: Peter Krijgsman
 title: Projectmanager Cloud Communications and website builder with MkDocs
-email: peter.krijgsman@gmail.com
-website: https://pekri.nl
+# email: peter.krijgsman@gmail.com
+# website: https://pekri.nl
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -29,9 +29,9 @@ additional_links:
 - title: LanTel
   icon: fas fa-globe
   url: https://lantel.nl
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+- title: onlinebijbelverklaring.nl
+#   icon: fa-regular fa-book-open
+#   url: https://onlinebijbelverklaring.nl
 
 # About Section
 # about_title: About Me
