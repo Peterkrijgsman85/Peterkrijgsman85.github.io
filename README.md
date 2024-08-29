@@ -3,17 +3,17 @@ I'm Peter
 Projectmanager Cloud Communications and website builder with MkDocs
 
 ## 🙋🏻‍♂️ About me
-![alt text](images/profile.jpg "Hi")
 Hi my name is Peter and I am a project manager at LanTel. As a project manager I am involved in implementing Cloud Communication solutions at our customers. In my own time i’m working on projects made with MkDocs.
 
 ### ⭐ Skills
 I am skilled in: UCaaS / Projectmanagement / MkDocs
 
 ## 🛠️ Personal projects
-### **Onlinebijbelverklaring.nl**  
+### **[Onlinebijbelverklaring.nl]**(https://onlinebijbelverklaring.nl)  
 _Complete online Bible commentary, powered by mkdocs_
 
 I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That’s how I got to know MkDocs. In the meantime, the website has grown into a large project.
+
 
 
 ## 🏢 Current job
