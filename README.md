@@ -28,3 +28,5 @@ We do this by communicating clearly to our relations in the things we do. We are
 
 As a project manager, I am responsible for the proper delivery of projects. In short, this involves: Maintaining contact with the client and internal organizational departments, Planning, initiating and coordinating activities, Supporting team members,Monitoring the progress of the implementation, Administrative processing of contracts that belong to the project
 
+## Shields
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
