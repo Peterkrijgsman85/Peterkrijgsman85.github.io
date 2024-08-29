@@ -17,7 +17,7 @@ I started this project after doing a few pilot projects for documentation webpag
 
 
 ## 🏢 Current job
-### **Projectmanager at LanTel, since january 2009**  
+### **Projectmanager at [LanTel](https://lantel.nl), since january 2009**  
 _Started as an engineer, and now project manager_
 
 The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel for over 16 years now.
