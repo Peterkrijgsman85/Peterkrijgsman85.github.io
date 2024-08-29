@@ -30,8 +30,8 @@ additional_links:
   icon: fas fa-globe
   url: https://lantel.nl
 - title: onlinebijbelverklaring.nl
-#   icon: fa-regular fa-book-open
-#   url: https://onlinebijbelverklaring.nl
+   icon: fas fa-regular fa-book-open
+   url: https://onlinebijbelverklaring.nl
 
 # About Section
 # about_title: About Me
