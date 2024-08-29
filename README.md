@@ -4,14 +4,18 @@ Projectmanager Cloud Communications and website builder with MkDocs
 
 ## About me
 Hi my name is Peter and I am a project manager at LanTel. As a project manager I am involved in implementing Cloud Communication solutions at our customers. In my own time i’m working on projects made with MkDocs.
-I am skilled in: Cloud Communications / UCaaS Projectmanagement MkDocs
+
+### Skills
+I am skilled in: Cloud Communications / UCaaS Projectmanagement / MkDocs
 
 ## Personal projects
+Onlinebijbelverklaring.nl
 
-## 🏢 Work experience
-Company: LanTel  
-Job: Projectmanagement  
-Started: January 2009  
+A complete bible commantary webpage powered by MkDocs
+
+
+## 🏢 Current job
+**Projectmanager at LanTel, since january 2009**
 
 The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel for over 16 years now.
 
