@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   I am skilled in: <mark>Cloud Communications / UCaaS</mark> <mark>Projectmanagement</mark> <mark>MkDocs</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -72,7 +72,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That's how I got to know MkDocs. In the meantime, the website has grown into a large project.
 
-  - title: Experience # Title for the section
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -84,7 +84,7 @@ content:
         quote: >
           Started as an engineer, and now project manager
         description: | # this will include new lines to allow paragraphs
-            The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel in Dordrecht for over 16 years now. 
+            The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel for over 16 years now. 
             
             We have been ensuring that organizations are optimally accessible for over 25 years. With our knowledge and personal approach, we are able to offer a high-quality and reliable business telephony solution for every challenge.
             
@@ -94,7 +94,7 @@ content:
 
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
