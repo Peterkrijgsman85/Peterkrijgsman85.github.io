@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Peter Krijgsman
-title: I build websites with Material for MkDocs
+title: Projectmanager Cloud Communications and website builder with MkDocs
 email: peter.krijgsman@gmail.com
 website: https://pekri.nl
 
@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi my name is Peter and I am a project manager at LanTel. As a project manager I am involved in implementing Cloud Communication solutions at our customers.have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am skilled in: <mark>Cloud communications</mark> <mark>Projectmanagement</mark> <mark>MkDocs</mark>
+  I am skilled in: <mark>Cloud Communications / UCaaS</mark> <mark>Projectmanagement</mark> <mark>MkDocs</mark>
 
   In my own time i'm working on projects made with MkDocs.
 
