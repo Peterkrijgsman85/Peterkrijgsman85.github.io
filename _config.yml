@@ -68,7 +68,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Complete online Bible commentary, powered by mkdocs
         description: | # this will include new lines to allow paragraphs
           I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That's how I got to know MkDocs. In the meantime, the website has grown into a large project.
 
@@ -78,7 +78,7 @@ content:
       - layout: left
         title: LanTel
         link: lantel.nl
-        # link_text: boringcompany.com
+        link_text: lantel.nl
         sub_title: Projectmanagement
         caption: January 2009 - Present
         quote: >
