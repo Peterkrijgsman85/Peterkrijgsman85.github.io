@@ -6,7 +6,7 @@ favicon: images/favicon.png
 version: 2
 
 # Personal info
-name: </>Peter Krijgsman
+name: </> Peter Krijgsman
 title: Projectmanager Cloud Communications and website builder with MkDocs
 # email: peter.krijgsman@gmail.com
 # website: https://pekri.nl
@@ -37,7 +37,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Personal Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Onlinebijbelverklaring.nl
