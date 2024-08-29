@@ -15,19 +15,13 @@ title: Projectmanager Cloud Communications and website builder with MkDocs
 darkmode: true
 
 # Social links
-# twitter_username: facespics
 github_username:  Peterkrijgsman85
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: krijgsmanpeter
 
 # Additional icon links
 additional_links:
 - title: LanTel
-  icon: fas fa-globe
+  icon: fas fa-building
   url: https://lantel.nl
 - title: onlinebijbelverklaring.nl
   icon: fas fa-book-open
