@@ -9,15 +9,14 @@ Hi my name is Peter and I am a project manager at LanTel. As a project manager I
 I am skilled in: Cloud Communications / UCaaS Projectmanagement / MkDocs
 
 ## 🛠️ Personal projects
-Onlinebijbelverklaring.nl
-
-Complete online Bible commentary, powered by mkdocs
+### **Onlinebijbelverklaring.nl**  
+_Complete online Bible commentary, powered by mkdocs_
 
 I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That’s how I got to know MkDocs. In the meantime, the website has grown into a large project.
 
 
 ## 🏢 Current job
-**Projectmanager at LanTel, since january 2009**  
+### **Projectmanager at LanTel, since january 2009**  
 _Started as an engineer, and now project manager_
 
 The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel for over 16 years now.
