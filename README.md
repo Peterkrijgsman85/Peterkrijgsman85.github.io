@@ -9,7 +9,7 @@ I am skilled in: UCaaS / Projectmanagement / MkDocs
 
 ## 🛠️ Personal projects
 ### **Building [Onlinebijbelverklaring.nl](https://onlinebijbelverklaring.nl)**
-_Complete online Multi Bible commentary webpage, powered by mkdocs_
+_Complete online Multi Bible commentary (Reformed position) webpage, powered by mkdocs_
 
 I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That’s how I got to know MkDocs. In the meantime, the website has grown into a large project.
 
