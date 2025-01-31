@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>test</title>
+  </head>
+  <body>
+    <script>
+fetch('https://chargefinder.com/nl/laadpaal-vlaardingen-henriette-roland-holststraat-47/p982m8') // Include the complete URL to the webpage featuring the div of interest.
+  .then(response => response.text())
+  .then(html => {
+    let parser = new DOMParser();
+    let doc = parser.parseFromString(html, 'text/html');
+    let divToEmbed = doc.querySelector('#.accordion-item.accordion-item-opened'); // See Note A.
+    let container = document.getElementById('container'); // See note B.
+    container.appendChild(divToEmbed);
+  })
+  .catch(error => console.error(error));
+</script>
+
+<div id="container"><!-- Leave empty; imported div goes here. --></div></body>
+</html>
