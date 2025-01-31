@@ -9,7 +9,7 @@ fetch('https://chargefinder.com/nl/laadpaal-vlaardingen-henriette-roland-holstst
   .then(html => {
     let parser = new DOMParser();
     let doc = parser.parseFromString(html, 'text/html');
-    let divToEmbed = doc.querySelector('#.accordion-item.accordion-item-opened'); // See Note A.
+    let divToEmbed = doc.querySelector('.accordion-item.accordion-item-opened'); // See Note A.
     let container = document.getElementById('container'); // See note B.
     container.appendChild(divToEmbed);
   })
