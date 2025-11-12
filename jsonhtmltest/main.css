@@ -1,0 +1,16 @@
+body {
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+img {
+  height: 64px;
+  vertical-align: middle;
+}
+
+p {
+	padding: 12px;
+	border-radius: 5px;
+	width: fit-content;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
