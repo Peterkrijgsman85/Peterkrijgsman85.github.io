@@ -14,8 +14,8 @@
   </head>
 
   <body class="main">
-  <template is="e-json" data-src="https://restcountries.com/v3.1/name/cyprus" data-object-name="response">
-    <h3>Information about <span data-text="${response.body[0].name.official}:"></span></h3>
+  <template is="e-json" data-src="https://ui-map.shellrecharge.com/api/map/v2/locations/4452657" data-object-name="response">
+    <h3>Information about <span data-text="${response.body.uid}:"></span></h3>
     <p>
       <span>Capital is </span><b data-text="${response.body[0].capital[0]}"></b><br>
       <span>Localted in </span><b data-text="${response.body[0].continents[0]}"></b><br>
