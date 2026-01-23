@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina Feedback</title>
+</head>
+<body>
+
+    <h3>Was deze informatie nuttig?</h3>
+    
+    <button onclick="stuurFeedback('👍 Nuttig')">👍 Ja</button>
+    <button onclick="stuurFeedback('👎 Niet nuttig')">👎 Nee</button>
+
+    <script>
+    function stuurFeedback(beoordeling) {
+        // Jouw specifieke Power Automate URL
+        const mijnFlowUrl = "https://defaulta1cf89defb6f47888904a28bc3f774.f2.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/63403457cd15478c9928d3e8dd5fa3b4/triggers/manual/paths/invoke?api-version=1";
+        
+        const data = {
+            page_url: window.location.href, 
+            rating: beoordeling
+        };
+
+        fetch(mijnFlowUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+        .then(() => {
+            alert("Bedankt voor je feedback!");
+        })
+        .catch(error => {
+            console.error("Fout bij verzenden:", error);
+            alert("Er is iets misgegaan.");
+        });
+    }
+    </script>
+
+</body>
+</html>
