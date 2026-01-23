@@ -2,95 +2,51 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Feedback</title>
     <style>
-        /* Basis styling voor de feedback widget */
-        #feedback-sectie { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-            padding: 15px; 
-            border: 1px solid #e0e0e0; 
-            border-radius: 8px; 
-            width: fit-content;
-            background-color: #ffffff;
-        }
-        p { margin-top: 0; color: #333; }
-        button { 
-            cursor: pointer; 
-            padding: 10px 20px; 
-            margin-right: 8px; 
-            border-radius: 6px; 
-            border: 1px solid #0078d4; 
-            background: white; 
-            color: #0078d4;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-        button:hover { 
-            background: #0078d4; 
-            color: white; 
-        }
+        body { margin: 0; padding: 0; }
+        #feedback-sectie { font-family: sans-serif; padding: 15px; border: 1px solid #e0e0e0; border-radius: 8px; width: fit-content; background: white; }
+        button { cursor: pointer; padding: 8px 16px; margin-right: 5px; border-radius: 5px; border: 1px solid #0078d4; background: white; color: #0078d4; font-weight: bold; }
+        button:hover { background: #0078d4; color: white; }
     </style>
 </head>
 <body>
 
     <div id="feedback-sectie">
         <div id="feedback-keuze">
-            <p>Heeft deze informatie u geholpen?</p>
+            <p style="margin-top:0">Heeft dit u geholpen?</p>
             <button onclick="stuurFeedback('👍 Nuttig')">Ja</button>
             <button onclick="stuurFeedback('👎 Niet nuttig')">Nee</button>
         </div>
         <div id="feedback-bedankt" style="display: none;">
-            <p><strong>Bedankt voor uw feedback!</strong></p>
+            <p><strong>Bedankt!</strong></p>
         </div>
     </div>
 
     <script>
     function stuurFeedback(beoordeling) {
-        // De volledige URL van jouw Power Automate Flow
         const mijnFlowUrl = "https://defaulta1cf89defb6f47888904a28bc3f774.f2.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/63403457cd15478c9928d3e8dd5fa3b4/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Qltm6BCyUCirv4n2HtdlI9OkY-LQp-F3REe5Ngoi0Lk";
         
-        // Logica voor iframe: pak de URL van de hoofdpagina (referrer) of de huidige pagina
-        let bronUrl;
-        try {
-            // Als we in een iframe zitten, pakken we de referrer
-            // Als dat leeg is of we zitten niet in een iframe, pakken we de huidige URL
-            bronUrl = (window.location !== window.parent.location) 
-                ? document.referrer 
-                : window.location.href;
-            
-            // Mocht document.referrer om privacyredenen leeg zijn, fallback naar eigen URL
-            if (!bronUrl) bronUrl = window.location.href;
-        } catch (e) {
-            // Bij security errors (cross-domain), gebruik de beschikbare informatie
-            bronUrl = document.referrer || window.location.href;
-        }
+        // Haal de URL op uit de browser-balk van het iframe zelf
+        const urlParams = new URLSearchParams(window.location.search);
+        const handmatigeUrl = urlParams.get('page'); 
+        
+        // Gebruik de 'page' parameter, of val terug op de referrer als die er niet is
+        const finaleUrl = handmatigeUrl || document.referrer || "Onbekende Notion pagina";
 
         const data = {
-            page_url: bronUrl,
+            page_url: finaleUrl,
             rating: beoordeling
         };
 
-        // Toon direct het bedankje
         document.getElementById('feedback-keuze').style.display = 'none';
         document.getElementById('feedback-bedankt').style.display = 'block';
 
-        // Verstuur de data naar Power Automate
         fetch(mijnFlowUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)
-        })
-        .then(response => {
-            if (!response.ok) {
-                console.error("Teams Flow Error:", response.status);
-            }
-        })
-        .catch(error => {
-            console.error("Netwerkfout:", error);
         });
     }
     </script>
-
 </body>
 </html>
