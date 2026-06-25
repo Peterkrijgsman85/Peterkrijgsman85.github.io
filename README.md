@@ -1,7 +1,5 @@
 # Peter Krijgsman
 
-**Developer & Creator** | Crafting practical tech solutions for everyday problems
-
 ## 👋 Welkom
 
 Ik ben Peter Krijgsman, een hobby-developer met passie voor het creëren van tools die het dagelijks leven verbeteren. Of het nu gaat om sport, ontspanning of onderwijs—ik geloof in het macht van goede design en code.
@@ -21,7 +19,7 @@ Toegankelijke bijbelteksten en verklaringen voor iedereen. Een open-source proje
 
 ## 💼 Over mij
 
-**Hobby**: Ik hou ervan om techniek in te zetten voor handige oplossingen. Mijn projecten richten zich op gebruiksgemak en functionaliteit.
+**Hobby**: Ik hou ervan om techniek in te zetten voor handige oplossingen. 
 
 **Professioneel**: In het dagelijks leven ben ik Project Manager bij **LanTel** in Dordrecht. Ik begeleid de implementatie van onze oplossingen, zodat je gebruik kunt maken van de beste communicatiemiddelen. Daarnaast vertaal ik functionele communicatie-wensen naar technische oplossingen.
 
@@ -46,10 +44,3 @@ Toegankelijke bijbelteksten en verklaringen voor iedereen. Een open-source proje
 - **LinkedIn**: [Peter Krijgsman](https://linkedin.com/in/peterkrijgsman)
 - **Website**: [pekri.nl](https://pekri.nl)
 
-## 📝 Licentie
-
-Alle projecten zijn open-source beschikbaar onder de MIT License (tenzij anders vermeld).
-
----
-
-*"Techniek moet het dagelijks leven verbeteren, niet bemoeilijken."*
