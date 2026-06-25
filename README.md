@@ -1,34 +1,55 @@
-# 👋 Hi there!
-I'm Peter, projectmanager Cloud Communications and website builder with MkDocs
+# Peter Krijgsman
 
-## 🙋🏻‍♂️ About me
-Hi my name is Peter and I am a project manager at LanTel. As a project manager I am involved in implementing Cloud Communication solutions at our customers. In my own time i’m working on projects made with MkDocs.
+**Developer & Creator** | Crafting practical tech solutions for everyday problems
 
-### ⭐ Skills
-I am skilled in: UCaaS / Projectmanagement / MkDocs
+## 👋 Welkom
 
-## 🛠️ Personal projects
-### **Building [Onlinebijbelverklaring.nl](https://onlinebijbelverklaring.nl)**
-_Complete online Multi Bible commentary (Reformed position) webpage, powered by mkdocs_
+Ik ben Peter Krijgsman, een hobby-developer met passie voor het creëren van tools die het dagelijks leven verbeteren. Of het nu gaat om sport, ontspanning of onderwijs—ik geloof in het macht van goede design en code.
 
-I started this project after doing a few pilot projects for documentation webpages with MkDocs as a basis. That’s how I got to know MkDocs. In the meantime, the website has grown into a large project.
+Mijn projecten zijn volledig **open-source** omdat ik ervan overtuigd ben dat kennis gedeeld moet worden.
 
+## 🚀 Mijn Projecten
 
+### 🚴 [Fietsmaatje](./fietsmaatje/)
+De ideale companion voor wielrenners. Controleer het weer, krijg slim kledingadvies, vind drinkwaterpunten en analyseer je Strava-sessies—alles in één app.
 
-## 🏢 Current job
-### **Projectmanager at [LanTel](https://lantel.nl), since january 2009**  
-_Started as an engineer, and now project manager_
+### 🏔️ [Cascadia Calculator](./cascadia-calculator/app/)
+Een snelle en mobielvriendelijke score-calculator voor het populaire bordspel Cascadia. Perfect voor spelers die vlot willen tellen zonder papier.
 
-The rapidly changing world of ICT is a domain where I feel at home. I am always busy with technology. With care, attention and creativity, I ensure good solutions, good service, and satisfied customers. I have been working at LanTel for over 16 years now.
+### 📖 [OnlineBijbelverklaring.nl](https://onlinebijbelverklaring.nl/)
+Toegankelijke bijbelteksten en verklaringen voor iedereen. Een open-source project gericht op het democratiseren van religieus onderwijs. Bevat bijbelverklaringen geschreven vanuit een Reformatorisch standpunt en de verklaring van de Galatenbrief van Luther.
 
-We have been ensuring that organizations are optimally accessible for over 25 years. With our knowledge and personal approach, we are able to offer a high-quality and reliable business telephony solution for every challenge.
+## 💼 Over mij
 
-We do this by communicating clearly to our relations in the things we do. We are passionate about our work and are flexible. This allows us to think along with our customers with a fresh perspective and offer the most suitable solution.
+**Hobby**: Ik hou ervan om techniek in te zetten voor handige oplossingen. Mijn projecten richten zich op gebruiksgemak en functionaliteit.
 
-As a project manager, I am responsible for the proper delivery of projects. In short, this involves: Maintaining contact with the client and internal organizational departments, Planning, initiating and coordinating activities, Supporting team members,Monitoring the progress of the implementation, Administrative processing of contracts that belong to the project
+**Professioneel**: In het dagelijks leven ben ik Project Manager bij **LanTel** in Dordrecht. Ik begeleid de implementatie van onze oplossingen, zodat je gebruik kunt maken van de beste communicatiemiddelen. Daarnaast vertaal ik functionele communicatie-wensen naar technische oplossingen.
 
-## Shields
-[![Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+**Vrije tijd**: Wanneer ik niet aan code werk, zit ik waarschijnlijk op de fiets of achter een goed boek.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Focus**: Web applications, responsive design, user experience
+- **Philosophy**: Open-source, clean code, practical solutions
+
+## 📊 Quick Stats
+
+- **3** open-source projecten
+- **100%** open-source
+- **∞** voortdurend leren
+- **🚀** Aan het bouwen
+
+## 🔗 Links & Contact
+
+- **GitHub**: [@Peterkrijgsman85](https://github.com/Peterkrijgsman85)
+- **LinkedIn**: [Peter Krijgsman](https://linkedin.com/in/peterkrijgsman)
+- **Website**: [pekri.nl](https://pekri.nl)
+
+## 📝 Licentie
+
+Alle projecten zijn open-source beschikbaar onder de MIT License (tenzij anders vermeld).
+
+---
+
+*"Techniek moet het dagelijks leven verbeteren, niet bemoeilijken."*
