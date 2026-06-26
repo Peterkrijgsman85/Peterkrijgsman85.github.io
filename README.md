@@ -11,7 +11,7 @@ Mijn projecten zijn volledig **open-source** omdat ik ervan overtuigd ben dat ke
 ### 🚴 [Fietsmaatje](./fietsmaatje/)
 De ideale companion voor wielrenners. Controleer het weer, krijg slim kledingadvies, vind drinkwaterpunten en analyseer je Strava-sessies—alles in één app.
 
-### 🏔️ [Cascadia Calculator](./cascadia-calculator/app/)
+### 🏔️ [Cascadia Calculator](./cascadia-calculator/)
 Een snelle en mobielvriendelijke score-calculator voor het populaire bordspel Cascadia. Perfect voor spelers die vlot willen tellen zonder papier.
 
 ### 📖 [OnlineBijbelverklaring.nl](https://onlinebijbelverklaring.nl/)
